@@ -5,7 +5,8 @@
     --text-gray: #4a4a4a;
     --color-primary: #4D41C0;
     --white: #fff;
-    --text-light-gray: #aaa
+    --text-light-gray: #aaa;
+    --star-yellow: #FFBB3A;
 }
 
 * {
@@ -100,7 +101,7 @@ nav img {
     align-items: center;
     justify-content: space-between;
     border-radius: 0 0 8px 8px;
-    min-height: 150px;
+    height: 220px;
 }
 
 .juarts-card-description h3 {
@@ -108,6 +109,31 @@ nav img {
     font-weight: 700;
     margin-bottom: 25px;
     text-align: center;
+}
+
+.juarts-card-description-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.juarts-card-description-bottom h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--star-yellow);
+
+}
+
+.juarts-card-description-bottom img {
+    width: 22px;
+
+}
+
+.juarts-card-description-bottom p {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--text-light-gray);
+    margin-bottom: 10px;
 }
 
 .juarts-btn, .juarts-btn:hover {
