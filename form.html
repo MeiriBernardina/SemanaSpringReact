@@ -26,9 +26,29 @@
                 <div>
                     <div class="juarts-card">
                         <img src="img/vanGogh.jpg" alt="van gogh">
-                        <div class="juarts-card-description">
+                        <div class="juarts-form-description">
                             <h3>Van gogh</h3>
-                            <a class="juarts-btn" href="index.html">Cancelar</a>
+                            <form class="juarts-form">
+                                <div class="form-group juarts-form-group">
+                                    <label for="email">Informe seu email:</label>
+                                    <input class="form-control" type="text" id="email">
+                                </div>
+                                <div class="form-group juarts-form-group">
+                                    <label for="score">Informe sua avaliação:</label>
+                                    <select class="form-control" name="score" id="score">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                                <div class="juarts-form-btn-container">
+                                    <button class="juarts-btn" type="submit">Salvar</button>
+                                    <a class="juarts-btn" href="index.html">Cancelar</a>
+                                </div>
+                            </form>
+                            
                         </div>
                     </div>
                 </div>
