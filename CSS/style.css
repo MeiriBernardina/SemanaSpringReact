@@ -76,7 +76,7 @@ nav img {
 }
 
 #juarts-card-list {
-    padding: 40px 10px;
+    padding: 0 10px;
 
 }
 
@@ -195,4 +195,53 @@ nav img {
     justify-content: space-between;
 
 
+}
+
+.juarts-pagination-container {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.juarts-pagination-box {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.juarts-pagination-box p {
+    margin: 0;
+    font-size: 12px;
+    color: var(--color-primary);
+    font-weight: 400;
+
+}
+
+.juarts-pagination-box button img {
+    filter: brightness(0) saturate(100%) invert(20%) sepia(95%) saturate(2279%) hue-rotate(239deg) brightness(86%) contrast(83%);
+}
+
+.juarts-pagination-box button:disabled img {
+    filter: unset;
+}
+
+.juarts-pagination-box button {
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--color-primary);
+    border-radius: 4px;
+    background-color: var(--bg-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.juarts-pagination-box button:disabled {
+    border: 1px solid var(--text-light-gray);
+}
+
+.juarts-flip-horizontal {
+    transform: rotate(180deg);
 }
